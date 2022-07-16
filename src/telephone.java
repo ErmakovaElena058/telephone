@@ -4,7 +4,7 @@ public class telephone {
         int score = 100;
         System.out.println("Остаток на счете: " + score);
 
-        int refill = 1100;
+        int refill = 200;
         System.out.println("Сумма пополнения: " + refill);
 
         int bonus;
