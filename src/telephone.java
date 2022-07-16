@@ -8,18 +8,19 @@ public class telephone {
         System.out.println("Сумма пополнения: " + refill);
 
         int bonus;
-        if (refill > 1000){
+        if (refill > 1000) {
             bonus = 1;
         } else {
-            bonus = 0;} 
-        
+            bonus = 0;
+        }
+
         int gift = refill / 100 * bonus;
 
-       System.out.println("Итоговый бонус: " + gift);
+        System.out.println("Итоговый бонус: " + gift);
 
-       int FinalScore = score + refill + gift;
-        System.out.println("Итого на счете: " + FinalScore);
-        }
+        int finalScore = score + refill + gift;
+        System.out.println("Итого на счете: " + finalScore);
+    }
 }
 
 
